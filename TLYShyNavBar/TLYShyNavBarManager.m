@@ -425,7 +425,7 @@ static void * const kTLYShyNavBarManagerKVOContext = (void*)&kTLYShyNavBarManage
 
 - (void)cleanup
 {
-    [self.navBarController expand];
+//    [self.navBarController expand];
     self.previousYOffset = NAN;
 }
 
